@@ -1,0 +1,1 @@
+# cookiecutter_simple_docker
