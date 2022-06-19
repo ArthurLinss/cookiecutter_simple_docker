@@ -7,3 +7,12 @@
 
 Requirements:
 - python3 -m pip freeze > requirements.txt 
+
+Getting started:
+- python3.9 -m venv <virtual env path>
+- source <virtual env path>/bin/activate
+- cookiecutter gh:cookiecutter/cookiecutter-django
+- cd <what you have entered as the project_slug at setup stage>
+- python3 -m pip install -r requirements/local.txt
+- git init # A git repo is required for pre-commit to install
+- pre-commit install
